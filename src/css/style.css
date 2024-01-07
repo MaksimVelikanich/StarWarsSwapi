@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins:wght@300;700&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: #0a0b0b;
+    color:white;
+
+}
+
+.header{
+    border:1px solid #48494a;
+    background-color: black;
+    padding: 0px 50px ;
+}
+
+.headerLogo{
+    cursor: pointer;
+}
+
+.filmsInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 0px;
+    margin: 0 -200px;
+}
+
+.filmsAbout {
+    box-sizing: border-box;
+    border: 1px solid #48494a;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    height: 30vh;
+    cursor: pointer;
+    text-decoration: none; 
+    color: white;
+}
+
+#title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#director{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+#release{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.filmsAbout:hover {
+    border: 1px solid #B5B7B7;
+}
+  
+#text-title{
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.filmsAbout {
+    color: rgb(255,233,26);
+    margin-bottom: 15px; 
+}
+  
+.filmsAbout:hover {
+    color: rgb(213,194,23); 
+    box-shadow: 5px 2px 20px rgba(227, 210, 58, 0.5); 
+    transition: 0.5s;
+}  
+
+.filmsAbout p {
+    margin: 0; 
+    text-decoration: none; 
+    font-style: normal; 
+}
+  
+
+
+
+.backSpace {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+
+
+.block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+    
+.filmInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #48494a;
+    box-shadow: 5px 2px 20px rgba(227, 210, 58, 0.5); 
+    background-color: black;
+    opacity: 0.8;
+    width: 70%;
+    height: auto;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1; 
+}
+
+.backStar {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#main{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+}    
+
+#details {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: red;
+  }
+  
+#focus{
+    cursor: pointer;
+    transition: 1s;
+}
+
+#focus:hover{
+    color: gold;
+    font-size: 25px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/hero.jpeg");
+    order: 0;
+}
+
+.character{
+    height: 100vh;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    opacity: 0.8;
+    display: flex;
+align-items:center ;    order: 1;
+    flex-direction: column;
+}
+
+.filmInclude{
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+#heroName{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(219, 176, 21); /* Колір тексту - можна вказати будь-який код кольору або назву кольору */
+    display: inline-block; /* Це дозволить влаштовувати елементи в рядок */
+    margin-right: 8px; /* Додайте відступ між назвою та значенням для більшої зручності */
+    padding-bottom:10px;
+}
+
+#labelFilm{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.AllFilms{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(38, 201, 38);
+    transition: 1s;
+}
+
+.AllFilms:hover{
+    color: rgb(38, 201, 38);
+    font-size: 30px;
+}
+
+.details{
+    font-weight: 600;
+}
+
+#mainOpening{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#tekst{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: '20px';
+    color: blue
+}
